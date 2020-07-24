@@ -2,7 +2,7 @@
   --primary: #4628ff;
   --warning: #ffd028;
   --danger: #eb3f27;
-  --success: #75fa83;
+  --success: #32cd32;
   --white: #fdfdfd;
   --dark: #181717;
 }
@@ -71,6 +71,6 @@
 }
 
 .btn--large {
-  padding: 15px 30px;
+  padding: 15px 40px;
   font-size: 20px;
 }
