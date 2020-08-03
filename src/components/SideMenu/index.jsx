@@ -9,10 +9,18 @@ export const SideMenu = () => {
   return (
     <>
       <Container>
-        <IconButton name={home_icon} descriprion={"Home"} />
-        <IconButton name={deposit1} descriprion={"Desposit"} />
-        <IconButton name={borrow1} descriprion={"Borrow"} />
-        <IconButton name={settings} descriprion={"Settigs"} />
+        <a href=".">
+          <IconButton name={home_icon} descriprion={"Home"} />
+        </a>
+        <a href="/deposit">
+          <IconButton name={deposit1} descriprion={"Desposit"} />
+        </a>
+        <a href="/borrow">
+          <IconButton name={borrow1} descriprion={"Borrow"} />
+        </a>
+        <a href="/settings">
+          <IconButton name={settings} descriprion={"Settigs"} />
+        </a>
       </Container>
     </>
   );
