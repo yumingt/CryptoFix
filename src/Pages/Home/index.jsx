@@ -53,7 +53,7 @@ export const Home = () => {
           <br />
           <br />
           {addr && (
-            <a href="https://05mvi.csb.app/deposit">
+            <a href="/deposit">
               <Button
                 type="button"
                 buttonStyle="btn--success--solid"

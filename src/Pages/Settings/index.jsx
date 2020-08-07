@@ -1,14 +1,14 @@
 import React from "react";
-import { BorrowHeader } from "../../components/Borrow/BorrowHeader";
+import { SettingsHeader } from "../../components/Settings/SettingsHeader";
 import { Grid } from "./styles";
 import { SideMenu } from "../../components/SideMenu";
 
-export const Borrow = () => {
+export const Settings = () => {
   return (
     <>
       <Grid>
         <SideMenu />
-        <BorrowHeader />
+        <SettingsHeader />
       </Grid>
     </>
   );

@@ -5,6 +5,7 @@ import GlobalStyle from "./GlobalStyles/GlobalStyle";
 import { Home } from "./Pages/Home";
 import { Deposit } from "./Pages/Deposit";
 import { Borrow } from "./Pages/Borrow";
+import { Settings } from "./Pages/Settings";
 
 export default function App() {
   return (
@@ -21,6 +22,10 @@ export default function App() {
 
           <Route exact path="/deposit">
             <Deposit />
+          </Route>
+
+          <Route exact path="/settings">
+            <Settings />
           </Route>
 
           <Route path="/">
